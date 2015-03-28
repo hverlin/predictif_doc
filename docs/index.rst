@@ -14,7 +14,9 @@ Complicated stuff :)
 
 .. toctree::
 	:maxdepth: 2
-	
+
+	introduction
+	abouut
 
 Guide
 ^^^^^
