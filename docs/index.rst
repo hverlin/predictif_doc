@@ -1,5 +1,5 @@
 *************************
-Préfictif - Documentation
+Prédictif - Documentation
 *************************
 
 .. toctree::
@@ -27,3 +27,7 @@ Vous trouverez dans cette documentation :
 1. Le modèle du domain avec un diagramme de classe UML
 2. La maquette des 3 IHM (président, employés, clients)
 3. La description des services
+   
+.. tip:: Pour une lecture plus agréable de la doc aller sur `http://predictif-doc.readthedocs.org/`_ 
+
+.. _http://predictif-doc.readthedocs.org/: http://predictif-doc.readthedocs.org/

@@ -56,14 +56,16 @@ Exemples d'utilisation
 Créer un client
 ^^^^^^^^^^^^^^^
 
-.. tip:: La class Calendar est utilisée pour la gestion des dates.
+.. tip:: La class `Calendar`_ est utilisée pour la gestion des dates.
+.. _Calendar: http://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html 
+
 
 .. code-block:: java
 	
 	// on imagine que le client est né aujourd'hui
 	Calendar DateNaissance = Calendar.getInstance();
 	Client c = new Client("Nom", "Prénom","Mr", DateNaissance, 
-			"rue de nullepart, 69 100 If_laville", "client@if.fr","06 26 30 29 ");
+		"rue de nullepart, 69 100 If_laville", "client@if.fr","06 26 30 29 ");
 	services.creerClient(c);
 
 Lister tous les clients de la base
