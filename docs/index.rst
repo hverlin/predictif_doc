@@ -1,66 +1,29 @@
-
-Simple documentation tutorial
-=============================
-
-Another Simple header
-=====================
-
-Complicated stuff :)
-
-
-.. code-block:: java
-
-    this is java
+*************************
+Préfictif - Documentation
+*************************
 
 .. toctree::
-	:maxdepth: 2
+   :caption: Table des matières
 
-	introduction
-	about
-
-Guide
-^^^^^
+	modele
+	maquette des IHM
+	description des services
 
 
+Introduction
+============
 
+*Prédict’IF* est un cabinet de voyance en ligne, qui envoie périodiquement des email à ses clients. Ces emails contiennent des horoscopes personnalisés créés par les employés de l'entreprise. Ceux-ci se basent sur le signe du client, et sur le choix des voyants qu'il a séléctionné lors de son inscription.
 
+Les services présentés ici permettent a création des différentes briques de l'application Prédict’IF, c'est-à-dire à la réalisation des différentes IHM.
 
+L'ensemble des services fournis permet la réalisation de deux IHM : 
 
-``This is some code``
+* Une IHM web pour les clients, qui leur permet de s'inscrire pour recevoir des horoscopes
+* Une IHM web pour les employés, pour la réalisation des horoscopes
+  
+Vous trouverez dans cette documentation : 
 
-+-----------------------------+------------------------+
-| colonne 1 dfsngqgq          | colonne 2              |
-+=============================+========================+
-| texte de la colonne 1       | colonne 2  dsvshblqvbs |
-+-----------------------------+------------------------+
-| trop collllllnongqo gfqggqg |                        |
-+-----------------------------+------------------------+
-
-`hello`_ 
-
-.. _hello: http://google.fr
-
-coolos[1]_
-
-this is some text	
-
-.. danger:: note
-coolos
-
-.. important:: coolos
-
-
-.. code-block:: java
-
-    public static void main(String args[])
-    {
-    	int a = 2;
-    	boolean b = false;
-    	System.out.println("Hello World");
-    }
-
-
-
-
-
-.. [1] trop cool
+1. Le modèle du domain avec un diagramme de classe UML
+2. La maquette des 3 IHM (président, employés, clients)
+3. La description des services
