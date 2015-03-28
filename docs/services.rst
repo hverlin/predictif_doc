@@ -1,8 +1,8 @@
 Description des services
 ========================
 
-Méthodes de classe services
----------------------------
+Méthodes de classe ``Services``
+-------------------------------
 
 +-------------------------------------------------------------+-------------------------+--------------------------------------------------------+
 | Méthode                                                     | Type de Retour          | Brève Description                                      |
@@ -26,7 +26,7 @@ Méthodes de classe services
 | creerPredictionTravail(PredictionTravail predictionTravail) | void                    | Permet d'insérer une prédiction de type                |
 |                                                             |                         | travail dans la base de données                        |
 +-------------------------------------------------------------+-------------------------+--------------------------------------------------------+
-| creerSigne(Signe signe)                                     |                         | Permet d'insérer un signe dans la base de données      |
+| creerSigne(Signe signe)                                     | void                    | Permet d'insérer un signe dans la base de données      |
 +-------------------------------------------------------------+-------------------------+--------------------------------------------------------+
 | getClientById(long idClient)                                | Client                  | Récupère un client grâce à son id                      |
 +-------------------------------------------------------------+-------------------------+--------------------------------------------------------+

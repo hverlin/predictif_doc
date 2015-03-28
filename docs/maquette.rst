@@ -1,8 +1,8 @@
 Présentation des maquettes
 ==========================
 
-IHM Web Client
---------------
+IHM Web - Client
+----------------
 
 Interface
 ^^^^^^^^^
@@ -10,8 +10,8 @@ Interface
 ICAR
 ^^^^
 
-IHM Web Employé
----------------
+IHM Web - Employé
+-----------------
 
 Interface
 ^^^^^^^^^
@@ -19,8 +19,8 @@ Interface
 ICAR
 ^^^^
 
-IHM fénẽtrée Président
-----------------------
+IHM fénetrée - Président
+------------------------
 
 Interface
 ^^^^^^^^^
