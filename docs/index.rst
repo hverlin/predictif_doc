@@ -2,9 +2,8 @@
 Préfictif - Documentation
 *************************
 
-Table des matières
-==================
 .. toctree::
+	:hidden:
 
 	Modèle du domain <modele>
 	Maquettes des IHM <maquette>
