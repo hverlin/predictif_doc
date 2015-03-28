@@ -1,12 +1,25 @@
-****************
-This is a header
-****************
 
-Coolos
-======
+Simple documentation tutorial
+=============================
 
-Coolos
-======
+Another Simple header
+=====================
+
+Complicated stuff :)
+
+
+.. code-block:: java
+
+    this is java
+
+.. toctree::
+	:maxdepth: 2
+	
+
+Guide
+^^^^^
+
+
 
 
 
