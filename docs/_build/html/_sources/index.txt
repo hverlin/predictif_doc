@@ -1,63 +1,51 @@
-.. predictif documentation master file, created by
-   sphinx-quickstart on Sat Mar 28 18:40:18 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+****************
+This is a header
+****************
 
-Welcome to predictif's documentation!
-=====================================
+Coolos
+======
 
-Contents:
-
-.. toctree::
-   :maxdepth: 2
+Coolos
+======
 
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+``This is some code``
 
-$project
-========
++-----------------------------+------------------------+
+| colonne 1 dfsngqgq          | colonne 2              |
++=============================+========================+
+| texte de la colonne 1       | colonne 2  dsvshblqvbs |
++-----------------------------+------------------------+
+| trop collllllnongqo gfqggqg |                        |
++-----------------------------+------------------------+
 
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
+`hello`_ 
 
-Look how easy it is to use:
+.. _hello: http://google.fr
 
-    import project
-    # Get your stuff done
-    project.do_stuff()
+coolos[1]_
 
-Features
---------
+this is some text	
 
-- Be awesome
-- Make things faster
+.. danger:: note
+coolos
 
-Installation
-------------
+.. important:: coolos
 
-Install $project by running:
 
-    install project
+.. code-block:: java
 
-Contribute
-----------
+    public static void main(String args[])
+    {
+    	int a = 2;
+    	boolean b = false;
+    	System.out.println("Hello World");
+    }
 
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
 
-Support
--------
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
 
-License
--------
 
-The project is licensed under the BSD license.
+.. [1] trop cool
