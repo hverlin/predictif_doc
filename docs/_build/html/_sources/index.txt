@@ -2,12 +2,13 @@
 Préfictif - Documentation
 *************************
 
+Table des matières
+==================
 .. toctree::
-   :caption: Table des matières
 
-	modele
-	maquette des IHM
-	description des services
+	Modèle du domain <modele>
+	Maquettes des IHM <maquette>
+	Description des services <services>
 
 
 Introduction

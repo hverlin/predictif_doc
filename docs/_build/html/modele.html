@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>modele &mdash; documentation predictif 0.1</title>
+  <title>Modèle du domaine &mdash; documentation predictif 0.1</title>
   
 
   
@@ -30,7 +30,9 @@
   
 
   
-    <link rel="top" title="documentation predictif 0.1" href="index.html"/> 
+    <link rel="top" title="documentation predictif 0.1" href="index.html"/>
+        <link rel="next" title="Présentation des maquettes" href="maquette.html"/>
+        <link rel="prev" title="Préfictif - Documentation" href="index.html"/> 
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -61,8 +63,14 @@
         
           
           
-              <p class="caption"><span class="caption-text">Table des matières</span></p>
-<ul class="simple">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="">Modèle du domain</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#liste-des-entity">Liste des entity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#diagramme-de-classes">Diagramme de Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="maquette.html">Maquettes des IHM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="services.html">Description des services</a></li>
 </ul>
 
           
@@ -87,7 +95,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>modele</li>
+    <li>Modèle du domaine</li>
       <li class="wy-breadcrumbs-aside">
         
           <a href="_sources/modele.txt" rel="nofollow"> View page source</a>
@@ -98,15 +106,15 @@
 </div>
           <div role="main" class="document">
             
-  <div class="section" id="modele">
-<h1>modele<a class="headerlink" href="#modele" title="Lien permanent vers ce titre">¶</a></h1>
+  <div class="section" id="modele-du-domaine">
+<h1>Modèle du domaine<a class="headerlink" href="#modele-du-domaine" title="Lien permanent vers ce titre">¶</a></h1>
 <div class="section" id="liste-des-entity">
 <h2>Liste des entity<a class="headerlink" href="#liste-des-entity" title="Lien permanent vers ce titre">¶</a></h2>
 <p>L&#8217;analyse des besoins concernant cette application nous a permis de définir ces différentes classes :</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="25%" />
-<col width="75%" />
+<col width="22%" />
+<col width="78%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Nom</th>
@@ -114,32 +122,32 @@
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td><code class="docutils literal"><span class="pre">Client</span></code></td>
+<tr class="row-even"><td>Client</td>
 <td>Client de predict&#8217;if</td>
 </tr>
-<tr class="row-odd"><td><code class="docutils literal"><span class="pre">Employe</span></code></td>
+<tr class="row-odd"><td>Employe</td>
 <td>Employe de Predict&#8217;if</td>
 </tr>
-<tr class="row-even"><td><code class="docutils literal"><span class="pre">Medium</span></code></td>
+<tr class="row-even"><td>Medium</td>
 <td>Medium fictif</td>
 </tr>
-<tr class="row-odd"><td><code class="docutils literal"><span class="pre">Horoscope</span></code></td>
+<tr class="row-odd"><td>Horoscope</td>
 <td>Horoscope contenant un ensemble de 3 prédictions de type différent</td>
 </tr>
-<tr class="row-even"><td><code class="docutils literal"><span class="pre">Prédiction</span></code></td>
+<tr class="row-even"><td>Prédiction</td>
 <td>Classe abstraite qui sert de base pour les 3 types de prédictions</td>
 </tr>
-<tr class="row-odd"><td><code class="docutils literal"><span class="pre">PrédictionAmour</span></code></td>
+<tr class="row-odd"><td>PrédictionAmour</td>
 <td>Prédiction de catégorie Amour,
 indique un signe partenaire</td>
 </tr>
-<tr class="row-even"><td><code class="docutils literal"><span class="pre">PrédictionTravail</span></code></td>
+<tr class="row-even"><td>PrédictionTravail</td>
 <td>Prédiction de catégorie Travail</td>
 </tr>
-<tr class="row-odd"><td><code class="docutils literal"><span class="pre">PrédictionSante</span></code></td>
+<tr class="row-odd"><td>PrédictionSante</td>
 <td>Prediction de catégorie Santé, contient un conseil pour le client</td>
 </tr>
-<tr class="row-even"><td><code class="docutils literal"><span class="pre">Signe</span></code></td>
+<tr class="row-even"><td>Signe</td>
 <td>Réprésente un signe astrologique simplifié
 (correspond à un mois de l&#8217;année)</td>
 </tr>
@@ -149,13 +157,22 @@ indique un signe partenaire</td>
 <div class="section" id="diagramme-de-classes">
 <h2>Diagramme de Classes<a class="headerlink" href="#diagramme-de-classes" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Le diagramme de classes ci-dessous reprend les différentes classes présentés ci-dessus.</p>
-<img alt="_images/uml.png" src="_images/uml.png" />
+<a class="reference internal image-reference" href="_images/uml.png"><img alt="_images/uml.png" class="align-center" src="_images/uml.png" style="width: 1000px;" /></a>
 </div>
 </div>
 
 
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="maquette.html" class="btn btn-neutral float-right" title="Présentation des maquettes">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Préfictif - Documentation"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
