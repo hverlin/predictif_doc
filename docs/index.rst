@@ -16,7 +16,7 @@ Complicated stuff :)
 	:maxdepth: 2
 
 	introduction
-	abouut
+	about
 
 Guide
 ^^^^^
