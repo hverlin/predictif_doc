@@ -2,10 +2,8 @@
 Prédictif - Documentation
 *************************
 
-.. only:: html
-
-	Introduction
-	------------
+Introduction
+============
 
 *Prédict’IF* est un cabinet de voyance en ligne, qui envoie périodiquement des email à ses clients. Ces emails contiennent des horoscopes personnalisés créés par les employés de l'entreprise. Ceux-ci se basent sur le signe du client, et sur le choix des voyants qu'il a séléctionné lors de son inscription.
 
@@ -19,8 +17,8 @@ L'ensemble des services fournis permet la réalisation de deux IHM :
 Vous trouverez dans cette documentation : 
 
 1. Le modèle du domaine avec un diagramme de classe UML
-2. La description des services
-3. La maquette des 3 IHM (président, employés, clients)
+2. La maquette des 3 IHM (président, employés, clients)
+3. La description des services
    
 .. tip:: Pour une lecture plus agréable de la doc aller sur `http://predictif-doc.readthedocs.org/`_ 
 

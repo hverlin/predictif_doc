@@ -1,29 +1,10 @@
 Présentation des maquettes
 ==========================
 
-IHM Web - Client
-----------------
+.. only:: html
 
-Interface
-^^^^^^^^^
+	Documents à téléchager 
 
-ICAR
-^^^^
+	- Télécharger le document des IHM : :download:`IHM <dasi.pdf>`
 
-IHM Web - Employé
------------------
-
-Interface
-^^^^^^^^^
-
-ICAR
-^^^^
-
-IHM fénetrée - Président
-------------------------
-
-Interface
-^^^^^^^^^
-
-ICAR
-^^^^
+	- Télécharger le document des IHM : :download:`ICAR <icar.pdf>`

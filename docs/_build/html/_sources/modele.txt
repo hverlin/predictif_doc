@@ -35,10 +35,8 @@ L'ensemble des classes dispose d'une méthode ``toString()`` pour permettre son 
 Diagramme de Classes
 --------------------
 
-.. only:: html
+Le diagramme de classes ci-dessous reprend les différentes classes présentés ci-dessus.
 
-	Le diagramme de classes ci-dessous reprend les différentes classes présentés ci-dessus.
-
-	- Télécharger le document du modèle UML : :download:`UML <uml.pdf>`
+- Télécharger le document du modèle UML : :download:`UML <uml.pdf>`
 
 

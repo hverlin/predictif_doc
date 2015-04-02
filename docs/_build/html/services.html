@@ -1,0 +1,378 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Description des services &mdash; documentation predictif 0.1</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="documentation predictif 0.1" href="index.html"/>
+        <link rel="next" title="Présentation des maquettes" href="maquette.html"/>
+        <link rel="prev" title="Modèle du domaine" href="modele.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+          <a href="index.html" class="fa fa-home"> predictif</a>
+        
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="modele.html">Modèle du domain</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="modele.html#liste-des-entity">Liste des entity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modele.html#diagramme-de-classes">Diagramme de Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Description des services</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#methodes-de-classe-services">Méthodes de classe <code class="docutils literal"><span class="pre">Services</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#exemples-d-utilisation">Exemples d&#8217;utilisation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="maquette.html">Maquettes des IHM</a></li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">predictif</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Description des services</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="_sources/services.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="description-des-services">
+<h1>Description des services<a class="headerlink" href="#description-des-services" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="methodes-de-classe-services">
+<h2>Méthodes de classe <code class="docutils literal"><span class="pre">Services</span></code><a class="headerlink" href="#methodes-de-classe-services" title="Lien permanent vers ce titre">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="43%" />
+<col width="18%" />
+<col width="39%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Méthode</th>
+<th class="head">Type de Retour</th>
+<th class="head">Brève Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>creerClient(Client client)</td>
+<td>int</td>
+<td>Permet d&#8217;insérer un client dans la base de données</td>
+</tr>
+<tr class="row-odd"><td>creerEmploye(Employe employe)</td>
+<td>void</td>
+<td>Permet d&#8217;insérer un employé dans la base de données</td>
+</tr>
+<tr class="row-even"><td>creerHoroscope(Horoscope horoscope, Client client)</td>
+<td>void</td>
+<td>Permet d&#8217;insérer un horoscope dans la base de données,
+et de l&#8217;attacher à un client.
+Elle simule l&#8217;envoi du mail au client</td>
+</tr>
+<tr class="row-odd"><td>creerMedium(Medium medium)</td>
+<td>void</td>
+<td>Permet d&#8217;insérer un signe dans la base de données</td>
+</tr>
+<tr class="row-even"><td>creerPredictionAmour(PredictionAmour predictionAmour)</td>
+<td>void</td>
+<td>Permet d&#8217;insérer une prédiction de
+type amour dans la base de données</td>
+</tr>
+<tr class="row-odd"><td>creerPredictionSante(PredictionSante predictionSante)</td>
+<td>void</td>
+<td>Permet d&#8217;insérer une prédiction
+de type santé dans la base de données</td>
+</tr>
+<tr class="row-even"><td>creerPredictionTravail(PredictionTravail predictionTravail)</td>
+<td>void</td>
+<td>Permet d&#8217;insérer une prédiction de type
+travail dans la base de données</td>
+</tr>
+<tr class="row-odd"><td>creerSigne(Signe signe)</td>
+<td>void</td>
+<td>Permet d&#8217;insérer un signe dans la base de données</td>
+</tr>
+<tr class="row-even"><td>getClientById(long idClient)</td>
+<td>Client</td>
+<td>Récupère un client grâce à son id</td>
+</tr>
+<tr class="row-odd"><td>listerClients()</td>
+<td>List&lt;Client&gt;</td>
+<td>Liste de toutes les clients de la base</td>
+</tr>
+<tr class="row-even"><td>listerHistoriqueClient(Client client)</td>
+<td>List&lt;Horoscope&gt;</td>
+<td>Renvoie l&#8217;historique de l&#8217;horoscope d&#8217;un client</td>
+</tr>
+<tr class="row-odd"><td>listerMediums()</td>
+<td>List&lt;Medium&gt;</td>
+<td>Liste de tous les mediums de la base</td>
+</tr>
+<tr class="row-even"><td>listerMediumsClient(Client client)</td>
+<td>List&lt;Medium&gt;</td>
+<td>Liste tous les mediums d&#8217;un client</td>
+</tr>
+<tr class="row-odd"><td>listerPredictionAmours()</td>
+<td>List&lt;PredictionAmour&gt;</td>
+<td>Liste de toutes les predictions amour de la base</td>
+</tr>
+<tr class="row-even"><td>listerPredictionSantes()</td>
+<td>List&lt;PredictionSante&gt;</td>
+<td>Liste de toutes les predictions sante de la base</td>
+</tr>
+<tr class="row-odd"><td>listerPredictionTravails()</td>
+<td>List&lt;PredictionTravail&gt;</td>
+<td>Liste de toutes les predictions travail de la base</td>
+</tr>
+<tr class="row-even"><td>listerSignes()</td>
+<td>List&lt;Signe&gt;</td>
+<td>Liste de toutes les signes de la base</td>
+</tr>
+<tr class="row-odd"><td>updateEmp(Employe emp)</td>
+<td>void</td>
+<td>Met à jour un employé dans la base</td>
+</tr>
+<tr class="row-even"><td>connexionEmploye(String identifiant, String mdp)</td>
+<td>Employe</td>
+<td>Connexion d&#8217;un employé</td>
+</tr>
+<tr class="row-odd"><td>listerMediumsClient(Client client)</td>
+<td>List&lt;Medium&gt;</td>
+<td>Liste tous les mediums d&#8217;un client</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="exemples-d-utilisation">
+<h2>Exemples d&#8217;utilisation<a class="headerlink" href="#exemples-d-utilisation" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="section" id="creer-un-client">
+<h3>Créer un client<a class="headerlink" href="#creer-un-client" title="Lien permanent vers ce titre">¶</a></h3>
+<div class="admonition tip">
+<p class="first admonition-title">Astuce</p>
+<p class="last">La class <a class="reference external" href="http://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html">Calendar</a> est utilisée pour la gestion des dates.</p>
+</div>
+<div class="highlight-java"><div class="highlight"><pre><span class="c1">// on imagine que le client est né aujourd&#39;hui</span>
+<span class="n">Calendar</span> <span class="n">DateNaissance</span> <span class="o">=</span> <span class="n">Calendar</span><span class="o">.</span><span class="na">getInstance</span><span class="o">();</span>
+<span class="n">Client</span> <span class="n">c</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Client</span><span class="o">(</span><span class="s">&quot;Nom&quot;</span><span class="o">,</span> <span class="s">&quot;Prénom&quot;</span><span class="o">,</span><span class="s">&quot;Mr&quot;</span><span class="o">,</span> <span class="n">DateNaissance</span><span class="o">,</span>
+        <span class="s">&quot;rue de nullepart, 69 100 If_laville&quot;</span><span class="o">,</span> <span class="s">&quot;client@if.fr&quot;</span><span class="o">,</span><span class="s">&quot;06 26 30 29 &quot;</span><span class="o">);</span>
+<span class="n">services</span><span class="o">.</span><span class="na">creerClient</span><span class="o">(</span><span class="n">c</span><span class="o">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="connexion-d-un-employe">
+<h3>Connexion d&#8217;un employé<a class="headerlink" href="#connexion-d-un-employe" title="Lien permanent vers ce titre">¶</a></h3>
+<div class="highlight-java"><div class="highlight"><pre><span class="n">Employe</span> <span class="n">employe</span> <span class="o">=</span> <span class="n">services</span><span class="o">.</span><span class="na">connexionEmploye</span><span class="o">(</span><span class="n">identifiant</span><span class="o">,</span> <span class="n">mdp</span><span class="o">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="lister-tous-les-clients-d-un-employe">
+<h3>Lister tous les clients d&#8217;un employé<a class="headerlink" href="#lister-tous-les-clients-d-un-employe" title="Lien permanent vers ce titre">¶</a></h3>
+<div class="highlight-java"><div class="highlight"><pre><span class="n">Employe</span> <span class="n">employe</span> <span class="o">=</span> <span class="n">services</span><span class="o">.</span><span class="na">connexionEmploye</span><span class="o">(</span><span class="n">identifiant</span><span class="o">,</span> <span class="n">mdp</span><span class="o">);</span>
+
+<span class="k">for</span><span class="o">(</span><span class="n">Client</span> <span class="n">element</span> <span class="o">:</span> <span class="n">employe</span><span class="o">.</span><span class="na">getClients</span><span class="o">()</span> <span class="o">)</span>
+<span class="o">{</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">element</span><span class="o">);</span>
+<span class="o">}</span>
+<span class="c1">// On peut vérifier qu&#39;il a bien des clients</span>
+<span class="k">if</span><span class="o">(</span><span class="n">choices</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">())</span>
+<span class="o">{</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Vous n&#39;avez pas de clients ! \nConnectez vous avec &quot;</span>
+            <span class="o">+</span> <span class="s">&quot;un autre compte et recommencez&quot;</span><span class="o">);</span>
+<span class="o">}</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Astuce</p>
+<p class="last">La service <em>services.listerHistoriqueClient(client)</em> permet de récupérer un historique préformaté. Pour plus de souplesse, vous pouvez directement utiliser la liste des horoscopes du client, ou encore utiliser les attributs de la classe <em>horoscope</em>.</p>
+</div>
+</div>
+<div class="section" id="afficher-l-historique-des-predictions">
+<h3>Afficher l&#8217;historique des prédictions<a class="headerlink" href="#afficher-l-historique-des-predictions" title="Lien permanent vers ce titre">¶</a></h3>
+<div class="highlight-java"><div class="highlight"><pre>    <span class="c1">// Première Méthode</span>
+    <span class="n">List</span><span class="o">&lt;</span><span class="n">Horoscope</span><span class="o">&gt;</span> <span class="n">historique</span> <span class="o">=</span> <span class="n">services</span><span class="o">.</span><span class="na">listerHistoriqueClient</span><span class="o">(</span><span class="n">client</span><span class="o">);</span>
+
+    <span class="c1">//2ème méthode</span>
+<span class="kt">boolean</span> <span class="n">vide</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+<span class="k">for</span><span class="o">(</span><span class="n">Horoscope</span> <span class="n">h</span> <span class="o">:</span> <span class="n">client</span><span class="o">.</span><span class="na">horoscopes</span><span class="o">)</span>
+<span class="o">{</span>
+    <span class="k">if</span><span class="o">(</span><span class="n">h</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span>
+    <span class="o">{</span>
+        <span class="n">vide</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;_____________&quot;</span><span class="o">);</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;\n\nLe &quot;</span><span class="o">+</span>
+        <span class="n">h</span><span class="o">.</span><span class="na">getDateHoroscope</span><span class="o">().</span><span class="na">get</span><span class="o">(</span><span class="n">Calendar</span><span class="o">.</span><span class="na">DAY_OF_MONTH</span><span class="o">)+</span> <span class="s">&quot; &quot;</span>
+                    <span class="o">+</span> <span class="s">&quot;&quot;</span><span class="o">+</span><span class="n">h</span><span class="o">.</span><span class="na">getDateHoroscope</span><span class="o">().</span><span class="na">getDisplayName</span><span class="o">(</span>
+                    <span class="n">Calendar</span><span class="o">.</span><span class="na">MONTH</span><span class="o">,</span><span class="n">Calendar</span><span class="o">.</span><span class="na">LONG</span><span class="o">,</span><span class="n">Locale</span><span class="o">.</span><span class="na">FRANCE</span><span class="o">)+</span><span class="s">&quot;&quot;</span>
+                    <span class="o">+</span> <span class="s">&quot; &quot;</span><span class="o">+</span><span class="n">h</span><span class="o">.</span><span class="na">getDateHoroscope</span><span class="o">().</span><span class="na">get</span><span class="o">(</span><span class="n">Calendar</span><span class="o">.</span><span class="na">YEAR</span><span class="o">));</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">h</span><span class="o">);</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;\n\n By &quot;</span><span class="o">+</span><span class="n">h</span><span class="o">.</span><span class="na">getNomMedium</span><span class="o">());</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;_____________&quot;</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+<span class="k">if</span><span class="o">(</span><span class="n">vide</span><span class="o">)</span>
+<span class="o">{</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Historique vide&quot;</span><span class="o">);</span>
+<span class="o">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="ajouter-une-prediction-a-un-horoscope">
+<h3>Ajouter une prédiction à un horoscope<a class="headerlink" href="#ajouter-une-prediction-a-un-horoscope" title="Lien permanent vers ce titre">¶</a></h3>
+<div class="highlight-java"><div class="highlight"><pre>    <span class="c1">// on liste une catégorie de prédictions</span>
+<span class="n">List</span><span class="o">&lt;</span><span class="n">PredictionAmour</span><span class="o">&gt;</span> <span class="n">pAmour</span> <span class="o">=</span> <span class="n">services</span><span class="o">.</span><span class="na">listerPredictionAmours</span><span class="o">();</span>
+<span class="n">Horoscope</span> <span class="n">horoscope</span> <span class="o">=</span> <span class="k">new</span> <span class="n">horoscope</span><span class="o">();</span>
+<span class="n">horoscope</span><span class="o">.</span><span class="na">setAmour</span><span class="o">(</span><span class="n">pAmour</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="mi">0</span><span class="o">));</span> <span class="c1">// si on veut la première de la liste</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="mettre-la-date-de-l-horoscope-et-l-ajouter-a-un-client">
+<h3>Mettre la date de l&#8217;horoscope et l&#8217;ajouter à un client<a class="headerlink" href="#mettre-la-date-de-l-horoscope-et-l-ajouter-a-un-client" title="Lien permanent vers ce titre">¶</a></h3>
+<div class="highlight-java"><div class="highlight"><pre><span class="n">Calendar</span> <span class="n">date</span> <span class="o">=</span> <span class="n">Calendar</span><span class="o">.</span><span class="na">getInstance</span><span class="o">();</span>
+<span class="n">horoscope</span><span class="o">.</span><span class="na">setDateHoroscope</span><span class="o">(</span><span class="n">date</span><span class="o">);</span>
+<span class="n">services</span><span class="o">.</span><span class="na">creerHoroscope</span><span class="o">(</span><span class="n">horoscope</span><span class="o">,</span> <span class="n">client</span><span class="o">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="maquette.html" class="btn btn-neutral float-right" title="Présentation des maquettes">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="modele.html" class="btn btn-neutral" title="Modèle du domaine"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, H. Verlin - S. Toko.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
