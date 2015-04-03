@@ -29,7 +29,17 @@ Méthodes de classe ``Services``
 +-------------------------------------------------------------+-------------------------+--------------------------------------------------------+
 | creerSigne(Signe signe)                                     | void                    | Permet d'insérer un signe dans la base de données      |
 +-------------------------------------------------------------+-------------------------+--------------------------------------------------------+
-| getClientById(long idClient)                                | Client                  | Récupère un client grâce à son id                      |
+| getClientById(long id)                                      | Client                  | Récupère un client grâce à son id                      |
++-------------------------------------------------------------+-------------------------+--------------------------------------------------------+
+| getEmployeById(long id)                                     | Employe                 | Récupère un employe grâce à son id                     |
++-------------------------------------------------------------+-------------------------+--------------------------------------------------------+
+| getSigneById(long id)                                       | Signe                   | Récupère un signe grâce à son id                       |
++-------------------------------------------------------------+-------------------------+--------------------------------------------------------+
+| getPredictionById(long id)                                  | Prediction              | Récupère un prediction grâce à son id                  |
++-------------------------------------------------------------+-------------------------+--------------------------------------------------------+
+| getHoroscopeById(long id)                                   | Horoscope               | Récupère un horoscope grâce à son id                   |
++-------------------------------------------------------------+-------------------------+--------------------------------------------------------+
+| getMediumById(long id)                                      | Medium                  | Récupère un medium grâce à son id                      |
 +-------------------------------------------------------------+-------------------------+--------------------------------------------------------+
 | listerClients()                                             | List<Client>            | Liste de toutes les clients de la base                 |
 +-------------------------------------------------------------+-------------------------+--------------------------------------------------------+
@@ -96,8 +106,7 @@ Lister tous les clients d'un employé
     // On peut vérifier qu'il a bien des clients
     if(choices.isEmpty())
     {
-        System.out.println("Vous n'avez pas de clients ! \nConnectez vous avec "
-                + "un autre compte et recommencez");
+        System.out.println("Vous n'avez pas de clients !");
     }
 
 .. tip:: La service *services.listerHistoriqueClient(client)* permet de récupérer un historique préformaté. Pour plus de souplesse, vous pouvez directement utiliser la liste des horoscopes du client, ou encore utiliser les attributs de la classe *horoscope*. 
